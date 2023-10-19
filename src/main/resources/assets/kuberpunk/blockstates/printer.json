@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "kuberpunk:block/printer"
+        }
+    }
+}

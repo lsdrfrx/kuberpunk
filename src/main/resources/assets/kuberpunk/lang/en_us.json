@@ -1,0 +1,13 @@
+{
+    "item.kuberpunk.rubber": "Rubber",
+    "item.kuberpunk.polymer": "Polymer",
+    "item.kuberpunk.immune_blockator": "Immune blockator",
+    "item.kuberpunk.steel_ingot": "Steel ingot",
+    "item.kuberpunk.titanium_ingot": "Titanium ingot",
+    "item.kuberpunk.volfram_ingot": "Volfram ingot",
+    "item.kuberpunk.eye": "Eye",
+    "block.kuberpunk.printer": "3D printer",
+    "block.kuberpunk.volfram_ore": "Volfram ore",
+    "block.kuberpunk.titanium_ore": "Titanium ore",
+    "itemGroup.kuberpunk.kuberpunk": "Kuberpunk"
+}

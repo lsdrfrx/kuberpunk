@@ -3,7 +3,8 @@ package com.kuberpunk;
 import static com.kuberpunk.Kuberpunk.MOD_ID;
 
 import com.kuberpunk.block.ModBlocks;
-import com.kuberpunk.item.ModItems;
+import com.kuberpunk.item.Implants;
+import com.kuberpunk.item.MiscItems;
 
 import static com.kuberpunk.Kuberpunk.LOGGER;
 
@@ -17,16 +18,21 @@ import net.minecraft.registry.Registries;
 
 public class KuberpunkGroup {
     private static final ItemGroup ITEM_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.RUBBER_ITEM))
+            .icon(() -> new ItemStack(Implants.EYE_ITEM))
             .displayName(Text.translatable("itemGroup.kuberpunk.kuberpunk"))
             .entries((context, entries) -> {
-                entries.add(ModItems.RUBBER_ITEM);
-                entries.add(ModItems.IMMUNE_BLOCKATOR_ITEM);
-                entries.add(ModItems.POLYMER_ITEM);
-                entries.add(ModItems.STEEL_ITEM);
-                entries.add(ModItems.VOLFRAM_ITEM);
-                entries.add(ModItems.TITANIUM_ITEM);
+                // Implants
+                entries.add(Implants.EYE_ITEM);
+                entries.add(Implants.IMMUNE_BLOCKATOR_ITEM);
 
+                // Misc items
+                entries.add(MiscItems.RUBBER_ITEM);
+                entries.add(MiscItems.POLYMER_ITEM);
+                entries.add(MiscItems.STEEL_INGOT_ITEM);
+                entries.add(MiscItems.VOLFRAM_INGOT_ITEM);
+                entries.add(MiscItems.TITANIUM_INGOT_ITEM);
+
+                // Blocks
                 entries.add(ModBlocks.PRINTER);
                 entries.add(ModBlocks.TITANIUM_ORE);
                 entries.add(ModBlocks.VOLFRAM_ORE);

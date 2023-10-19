@@ -14,7 +14,7 @@ import net.minecraft.registry.Registries;
 
 public class ModBlocks {
     public static final Block PRINTER = registerBlock("printer",
-            new Block(FabricBlockSettings.copy(Blocks.IRON_ORE)));
+            new Printer(FabricBlockSettings.copy(Blocks.IRON_ORE)));
 
     public static final Block TITANIUM_ORE = registerBlock("titanium_ore",
             new Block(FabricBlockSettings.copy(Blocks.IRON_ORE)));
